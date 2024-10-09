@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    height: 1000px;
+    background-image: url(https://www.popsci.com/uploads/2019/12/26/XQRMY2UEXZE4VACIXD7SUC2GBU.jpg?auto=webp&width=1440&height=809.25);
+}
+
+.border1{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-radius: 50%;
+}
+
+.border1 .sun{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.border2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.border2 .neptune{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: neptune 10.2s linear infinite;
+}
+
+@keyframes neptune{
+    0%{ 
+        transform: rotate(0deg) translate(-300px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(-300px) rotate(360deg);
+    }
+}
+
+.border3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.border3 .mercury{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: mercury 8.3s linear infinite;
+}
+
+@keyframes mercury{
+    0%{ 
+        transform: rotate(0deg) translate(122px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(122px) rotate(360deg);
+    }
+}
+
+.border4{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.border4 .venus{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: venus 9s linear infinite;
+}
+
+@keyframes venus{
+    0%{ 
+        transform: rotate(0deg) translate(155px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(155px) rotate(360deg);
+    }
+}
+
+.border5{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.border5 .earth{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: earth 11s linear infinite;
+}
+
+@keyframes earth{
+    0%{ 
+        transform: rotate(0deg) translate(175px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(175px) rotate(360deg);
+    }
+}
+
+.border6{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.border6 .mars{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: mars 9.4s linear infinite;
+}
+
+@keyframes mars{
+    0%{ 
+        transform: rotate(0deg) translate(200px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(200px) rotate(360deg);
+    }
+}
+
+.border7{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.border7 .jupiter{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: jupiter 13s linear infinite;
+}
+
+@keyframes jupiter{
+    0%{ 
+        transform: rotate(0deg) translate(230px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(230px) rotate(360deg);
+    }
+}
+
+.border8{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.border8 .saturn{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: saturn 12.3s linear infinite;
+}
+
+@keyframes saturn{
+    0%{ 
+        transform: rotate(0deg) translate(250px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(250px) rotate(360deg);
+    }
+}
+
+.border9{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.border9 .uranus{ 
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    animation: uranus 8.5s linear infinite;
+}
+
+@keyframes uranus{
+    0%{ 
+        transform: rotate(0deg) translate(300px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(300px) rotate(360deg);
+    }
+}
